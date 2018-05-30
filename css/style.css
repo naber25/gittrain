@@ -1,0 +1,58 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.wrapper{
+	width: 970px;
+	height: 1000px;
+	margin: 0 auto;
+	border: 1px solid red;
+}
+
+header{
+	line-height: 60px;
+	border:1px solid black;
+	height: 60px;
+	margin-bottom: 30px;
+}
+
+.content{
+	border: 1px solid red;
+	min-height: 800px;
+	height: auto;
+}
+.car> img{
+	width: 300px;
+	height: 200px; 
+	opacity: 0.85;	 
+	transition: all 0.15s ease-in 0.05s;
+}
+
+.car> img:hover{
+	opacity: 1;
+	cursor: pointer;
+	
+}
+
+.car:last-child{
+	margin-right: 0;
+}
+.car{
+	float: left;
+	border:1px solid yellow;
+	width: 320px;
+}
+
+
+.menu{
+	list-style-type: none;
+	width: 100%;
+	border: 1px solid blue;
+	text-align: center;
+}
+
+.menu>li{
+	display: inline;
+	margin-right: 25px;
+}
